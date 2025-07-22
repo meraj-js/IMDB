@@ -1,0 +1,90 @@
+.Featured{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:  start;
+    background-color:rgb(18, 18, 18);
+    margin-top: 20px;
+}
+
+.Featured .featuredsec{
+    width: 95%;
+    border-radius: 10px;
+    padding: 24px 0 ;
+    position: relative;
+}
+
+.Featured .featuredsec img{
+    width:100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    transition: 300ms;
+}
+
+.Featured .featuredsec img:hover{
+    opacity: 0.8;
+}
+
+.Featured .featuredsec .swiper-slide{
+    margin: 6px;
+}
+
+.Featured h2{
+    color: rgb(255, 214, 30);
+    font-family: imdbfont;
+    font-size: 27px;
+    margin-left: 35px ;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.Featured .featuredsec .tap-for-more{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.tap-for-more a:nth-of-type(1){
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-family: imdbfont;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.tap-for-more a:nth-of-type(2){
+    color: rgb(105, 153, 237);
+    font-family: imdbfont;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.tap-for-more a:hover{
+    text-decoration: underline;
+}
+
+.Featured .list-option{
+    position: absolute;
+    bottom: 75px;
+    left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.Featured .list-option span{
+    color: white;
+    font-family: imdbfont;
+}
+
+.Featured .featuredsec .swiper-button-next{
+    display: none;
+}
+
+.Featured .featuredsec .swiper-button-prev{
+    display: none;
+}

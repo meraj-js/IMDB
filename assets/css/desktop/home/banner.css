@@ -1,0 +1,268 @@
+body{
+    width: 100%;
+    background-color: black;
+}
+
+main .tablet{
+    display: none;
+}
+
+.page-content-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.page-content-container .banner-side {
+    width: 56%;
+    height: 550px;
+    transition: 300ms;
+}
+
+.page-content-container .banner-side:hover{
+    opacity: 0.9;
+}
+
+.banner-side .banner{
+    border-radius: 12px;
+}
+
+
+.page-content-container .banner .swiper-slide{
+    width: 100%;
+    height: 550px;
+    object-fit: fill;
+    cursor: pointer;
+}
+/* .page-content-container .banner:hover{
+    box-shadow: -4px -200px 47px 200px rgba(0,0,0,0.77) inset;
+} */
+
+.page-content-container .banner .swiper-slide:nth-of-type(1){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(2){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(3){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(4){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(5){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(6){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(7){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(8){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+.page-content-container .banner .swiper-slide:nth-of-type(9){
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMzI1OTQxZDItZWUyYi00Yjc4LWE2Y2ItNDdhODI5ZDFiYzViXkEyXkFqcGc@._CR26,16,2416,1359_QL75_UX1000_CR0,0,1000,563_.jpg" );
+    box-shadow: -4px -168px 47px -72px rgba(0,0,0,0.95) inset;
+     background-position: center;
+    background-size: cover;
+}
+
+
+.page-content-container .banner .swiper-slide .poster img{
+    width: 140px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    top: 340px;
+    left: 30px;
+    cursor: context-menu;
+}
+
+
+.page-content-container .banner .swiper-slide .poster-info-left{
+    position: absolute;
+    top: 420px;
+    left: 200px;
+}
+
+.page-content-container .banner .swiper-slide .poster-info-right{
+    display: flex;
+    flex-flow: column wrap;
+    position: absolute;
+    top: 420px;
+    left: 300px;
+    gap: 10PX;
+}
+
+.poster-info-right h3{
+    font-family: imdbfont;
+    color: white;
+    font-size:35px;
+    font-weight: 400;
+}
+.poster-info-right h3::after{
+    content: "2:25";
+    font-family: imdbfont;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 25px;
+    font-weight: 400;
+}
+
+.page-content-container .banner .swiper-slide .poster-info-right > span{
+    font-family: imdbfont;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+}
+.page-content-container .banner .swiper-slide .poster-info-right .likes-first{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.poster-info-right .likes-first span{
+    font-family: imdbfont;
+    font-size: 14px;
+    color: #b0b0b0;
+    font-weight: 400;
+}
+
+.page-content-container .about-movies{
+    width:25%;
+    align-self: center;
+}
+
+.page-content-container .about-movies h3{
+    color: rgb(245,185,12);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: imdbfont;
+    font-weight: 400;
+}
+
+.about-movies .movies {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height:490px;
+    background: linear-gradient(180deg,#121212 0%, #000000 80%);
+    margin-top: 12px;
+    border-radius: 3px;
+}
+
+.about-movies .movies .movie-part{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+}
+
+.about-movies .movies .movie-part img{
+    width: 90px;
+    height: 125px;
+    align-self: center;
+    border-radius: 15px;
+}
+.about-movies .movies .movie-part .info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.about-movies .movies .movie-part .info .play::after{
+    content: "1:50";
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 100;
+    font-family: imdbfont;
+    font-weight: 400;
+}
+
+.about-movies .movies .movie-part .info span:nth-of-type(1){
+    font-family: imdbfont;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.about-movies .movies .movie-part .info span:nth-of-type(2){
+    font-family: imdbfont;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-movies .movies .movie-part .info .likes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.about-movies .movies .movie-part .info .likes span{
+    font-family: imdbfont;
+    font-size: 12px;
+    color: #b0b0b0;
+    font-weight: 400;
+}
+
+.about-movies a{
+    color: white;
+    font-family: imdbfont;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.about-movies a:hover{
+    color: rgb(247, 212, 58);
+}
+
+.page-content-container .banner .swiper-button-next{
+    color: white;
+}
+
+.page-content-container .banner .swiper-button-prev{
+    color: white;
+}

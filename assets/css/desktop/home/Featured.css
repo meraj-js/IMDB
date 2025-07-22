@@ -1,0 +1,86 @@
+.Featured{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:  start;
+    padding-bottom: 100px;
+}
+
+.Featured h2{
+    margin-left: 150px;
+}
+
+.Featured .featuredsec{
+    width: 55%;
+    height: 370px;
+    border-radius: 10px;
+    margin-left: 150px;
+    padding: 24px 0 ;
+}
+
+.Featured .featuredsec img{
+    width: 80%;
+    height: 240px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.Featured h2{
+    color: rgb(247, 212, 58);
+    font-family: imdbfont;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.Featured .featuredsec .tap-for-more{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+
+.tap-for-more a:nth-of-type(1){
+    color: white;
+    text-decoration: none;
+    font-family: imdbfont;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.tap-for-more a:nth-of-type(2){
+    color: rgb(14,90,224);
+    font-family: imdbfont;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.tap-for-more a:hover{
+    text-decoration: underline;
+}
+
+.Featured .list-option{
+    position: absolute;
+    top: 188px;
+    left: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.Featured .list-option span{
+    color: white;
+    font-family: imdbfont;
+    font-weight: 400;
+}
+
+
+.Featured .featuredsec .swiper-button-next{
+    color: white;
+}
+
+.Featured .featuredsec .swiper-button-prev{
+    color: white;
+}
